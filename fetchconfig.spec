@@ -49,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES COPYING CREDITS README device_table.example
+%doc CHANGES CREDITS README device_table.example
 %attr(755,root,root) %{_bindir}/fetchconfig
 %{perl_vendorlib}/fetchconfig
