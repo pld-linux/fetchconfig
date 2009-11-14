@@ -1,4 +1,3 @@
-
 %include        /usr/lib/rpm/macros.perl
 
 Summary:	Fetchconfig device configuration retrieval software
@@ -11,6 +10,7 @@ Group:		Applications/System
 Source0:	http://download.savannah.gnu.org/releases/fetchconfig/%{name}-%{version}.tar.gz
 # Source0-md5:	f09183930e4f6c02cfeebce834927a4a
 URL:		http://www.nongnu.org/fetchconfig/
+BuildRequires:	rpm-perlprov
 Requires:	perl-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
