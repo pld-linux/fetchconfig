@@ -1,4 +1,3 @@
-%include        /usr/lib/rpm/macros.perl
 
 Summary:	Fetchconfig device configuration retrieval software
 Summary(pl.UTF-8):	fetchconfig - program do odczytu konfiguracji urządzeń
