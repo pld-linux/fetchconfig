@@ -2,14 +2,15 @@
 Summary:	Fetchconfig device configuration retrieval software
 Summary(pl.UTF-8):	fetchconfig - program do odczytu konfiguracji urządzeń
 Name:		fetchconfig
-Version:	0.22
+Version:	0.23
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://download.savannah.gnu.org/releases/fetchconfig/%{name}-%{version}.tar.gz
-# Source0-md5:	6b6d666efec9de3e4a29dda18426b34d
+# Source0-md5:	3afaf9e8728ae2dc7943287d4a825ecc
 URL:		http://www.nongnu.org/fetchconfig/
 BuildRequires:	rpm-perlprov
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	perl-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
